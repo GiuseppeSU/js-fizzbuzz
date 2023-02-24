@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(0, 223, 204);
+}
+h1{
+    padding-top: 20px;
+    color: purple;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 105px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(49, 51, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: white;
+
+}
+
+.FizzBuzz{
+    background-color:chartreuse;
+}
+
+.Fizz{
+    background-color: rgb(255, 231, 92);
+    color: black;
+}
+
+.Buzz{
+    background-color: red;
+}
